@@ -83,3 +83,17 @@ const suitUP = () =>{
     tonyImg.setAttribute('src','https://steamuserimages-a.akamaihd.net/ugc/951830941729198784/E067F4BC94F5A6ACB40BB16C6DACCE3917179F67/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
     title.innerHTML = 'Iron Man'
 }
+const transform = () =>{
+    let tonyImg = document.getElementById('tonyImg');
+    let metroImg = document.querySelector('.metroImg');
+    let keuneImg = document.querySelector('.keuneImg');
+    let narutoImg = document.querySelector('.narutoImg');
+    let dojaImg = document.querySelector('.dojaImg'); 
+    console.log('umm this work so ...')
+
+    metroImg.setAttribute('src','https://static.hiphopdx.com/2023/06/nas-joins-metro-boomin-in-the-spider-verse-with-new-track-nas-morales-1200x675.jpg');
+    keuneImg.setAttribute('src','https://j.gifs.com/vg34gX.gif');
+    narutoImg.setAttribute('src','https://i.pinimg.com/originals/07/10/46/0710464327f62d458f21c80571315dcd.gif');
+    dojaImg.setAttribute('src','https://media.tenor.com/9eewOUvGMdsAAAAM/doja.gif');
+    tonyImg.setAttribute('src','https://steamuserimages-a.akamaihd.net/ugc/951830941729198784/E067F4BC94F5A6ACB40BB16C6DACCE3917179F67/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+}

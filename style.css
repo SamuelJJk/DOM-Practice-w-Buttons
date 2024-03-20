@@ -1,5 +1,10 @@
 /* desktop  */
 @media (max-width: 2080px){
+    .pageHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
     .firstContainer{
         display: flex;
         justify-content: space-evenly;
@@ -26,7 +31,12 @@
     }
 }
 /* tablet  */
-@media (max-width:1090px){  
+@media (max-width:1090px){ 
+    .pageHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    } 
     .firstContainer{
         display: flex;
         justify-content: space-evenly;
@@ -55,6 +65,11 @@
 }
 /* moblie view  */
 @media (max-width:880px){
+    .pageHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
     .firstContainer{
         display: block;
         height: auto;
@@ -111,6 +126,7 @@
     text-align: center;
     color: red;
 }
+
 
 
 
