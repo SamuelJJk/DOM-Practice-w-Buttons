@@ -1,0 +1,118 @@
+/* desktop  */
+@media (max-width: 2080px){
+    .firstContainer{
+        display: flex;
+        justify-content: space-evenly;
+        height: 40vh;
+        margin: 1em;
+        /* border: solid black; */
+    }
+    .card{
+        width: 20%;
+        border: solid black;
+    }
+    .title{
+        /* border: solid blue; */
+    }
+    .imgbox{
+        /* border: solid forestgreen; */
+        width: 100%;
+        height: 50%;
+    }
+    .imgbox img{
+    width: 100%;
+    height: 100%;
+    
+    }
+}
+/* tablet  */
+@media (max-width:1090px){  
+    .firstContainer{
+        display: flex;
+        justify-content: space-evenly;
+        height: 40vh;
+        margin: 1em;
+        /* border: solid black; */
+    }
+    .card{
+        width: 20%;
+        border: solid black;
+    }
+    .title{
+        /* border: solid blue; */
+        font-size: 15px;
+    }
+    .imgbox{
+        /* border: solid forestgreen; */
+        width: 100%;
+        height: 50%;
+    }
+    .imgbox img{
+    width: 100%;
+    height: 100%;
+    
+    }  
+}
+/* moblie view  */
+@media (max-width:880px){
+    .firstContainer{
+        display: block;
+        height: auto;
+        margin: 0;
+        /* border: solid green; */
+    }
+    .card{
+        width: 100%;
+        border: solid black;
+    }
+    .title{
+        /* border: solid blue; */
+        font-size: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
+    .imgbox{
+        /* border: solid forestgreen; */
+        width: 100%;
+        height: 50%;
+    }
+    .imgbox img{
+    width: 100%;
+    height: 100%;
+    
+    }
+}
+/* key animations */
+@keyframes slam {
+
+}
+    /* class example */
+    .box{
+        border:solid blue;
+        height:90px;
+        width:90px;
+        margin:2em;
+    }
+    .circle{
+        border:solid blue;
+        height:200px;
+        width:100%;
+        margin:2em;
+        transition:3s;
+    }
+    .vadim2{
+        border:solid purple;
+        height:90px;
+        width:90px;
+        border-width:8px;
+    }
+/* General Css */
+.pageTitle{
+    text-align: center;
+    color: red;
+}
+
+
+
+
+
